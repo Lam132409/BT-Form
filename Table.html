@@ -21,38 +21,38 @@
 <h1 class="blink">From lấy thông tin HV</h1>
 <form action="" method="get">
 
-    <table border="">
+    <table border="1">
 
         <tr>
             <td>
-                <lable>Name</lable>
+                <label for="name">Name</label>
             </td>
             <td>
-                <input type="text" placeholder="Họ và tên" name="hoten"><br>
+                <input type="text" id="name" placeholder="Họ và tên" name="hoten"><br>
             </td>
         </tr>
         <tr>
             <td>
-                <lable>password</lable>
+                <label for="password">password</label>
             </td>
             <td>
-                <input type="password" placeholder="password"><br>
+                <input type="password" name="text" id="password" placeholder="password"><br>
             </td>
         </tr>
         <tr>
             <td>
-                <lable for="">Ngày sinh</lable>
+                <label>Ngày sinh</label>
 
             </td>
             <td>
-                <lable for="">Ngày sinh</lable>
+                <label for="dayofbirth">Ngày sinh</label>
                 <select name="" id="dayofbirth">
                     <option value="">1</option>
                     <option value="">2</option>
                     <option value="">3</option>
                     <option value="">4</option>
                 </select>
-                <lable for="">Tháng sinh</lable>
+                <label for="monthofbirth">Tháng sinh</label>
                 <select name="" id="monthofbirth">
                     <option value="">1</option>
                     <option value="">2</option>
@@ -63,23 +63,24 @@
         </tr>
         <tr>
             <td>
-                <lable>Màu sắc yêu thích</lable>
+                <label for="color">Màu sắc yêu thích</label>
             </td>
             <td>
-                <input type="color">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <lable>Ảnh đại diện</lable>
-            </td>
-            <td>
-                <input type="file"> <br>
+                <input type="color" id="color">
             </td>
         </tr>
         <tr>
             <td>
-                <lable>Giới tính</lable>
+                <label for="file">Ảnh đại diện</label>
+            </td>
+            <td>
+                <input type="file" id="file"> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+        <label>Giới tính</label>
             </td>
             <td>
                 <input type="radio" name="choses">Nam
@@ -88,7 +89,7 @@
         </tr>
         <tr>
             <td>
-                <lable>Bạn đã biết lập trình trước đây</lable>
+                <label>Bạn đã biết lập trình trước đây</label>
             </td>
             <td>
                 <input type="checkbox">
