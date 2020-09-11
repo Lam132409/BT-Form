@@ -10,18 +10,18 @@
 <body>
 <h1>From lấy thông tin HV</h1>
 <form action="" method="get">
-    <lable>Name</lable>
-    <input type="text" placeholder="Họ và tên" name="hoten"><br>
-    <lable>password</lable>
-    <input type="password" placeholder="password"><br>
-    <lable for="">Ngày sinh</lable>
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Họ và tên" name="hoten"><br>
+    <label for="password">password</label>
+    <input type="password" name="text" id="password" placeholder="password"><br>
+    <label for="dayofbirth">Ngày sinh</label>
     <select name="" id="dayofbirth">
         <option value="">1</option>
         <option value="">2</option>
         <option value="">3</option>
         <option value="">4</option>
     </select>
-    <lable for="">Tháng sinh</lable>
+    <label for="monthofbirth">Tháng sinh</label>
     <select name="" id="monthofbirth">
         <option value="">1</option>
         <option value="">2</option>
@@ -29,18 +29,16 @@
         <option value="">4</option>
     </select>
     <br>
-    <lable type="file">Ảnh đại diện</lable>
+    <label for="color">Màu sắc yêu thích</label>
+    <input type="color" id="color">
     <br>
-    <lable>Màu sắc yêu thích</lable>
-    <input type="color">
-    <br>
-    <lable>Ảnh đại diện</lable>
-    <input type="file"> <br>
-    <lable>Giới tính</lable>
+    <label for="file">Ảnh đại diện</label>
+    <input type="file" id="file"> <br>
+    <label>Giới tính</label>
     <input type="radio" name="choses">Nam
     <input type="radio" name="choses">Nữ
     <br>
-    <lable>Bạn đã biết lập trình trước đây chưa</lable>
+    <label>Bạn đã biết lập trình trước đây chưa</label>
     <input type="checkbox">
     <br>
     <button type="submit">Xác nhận</button>
